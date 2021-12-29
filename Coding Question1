@@ -1,0 +1,28 @@
+package myArray;
+
+import java.util.Scanner;
+
+public class Question1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Write a program that creates an array of 10 elements size. Your program should prompt the user to input numbers in array and then display the sum of all array elements.
+		
+		Scanner sc = new Scanner (System.in);
+	
+		int[] alpha = new int [10];
+		int sum = 0;
+		
+		System.out.println("Enter 10 array number: ");
+		for(int i = 0; i < alpha.length;i++)
+            alpha[i] = sc.nextInt();
+		
+		for(int i = 0;i < alpha.length;i++) 
+			sum += alpha[i];
+		
+		System.out.println("Sum of array: " + sum);
+		
+
+	}
+
+}
