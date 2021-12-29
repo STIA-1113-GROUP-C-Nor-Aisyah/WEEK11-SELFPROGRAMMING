@@ -1,0 +1,23 @@
+package myArray;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Write Java statements that do the following:
+		//a) Declare an array numArray of 15 elements of type int.
+		//b) Output the value of the tenth element of the array alpha.
+		//c) Set the value of the fifth element of the array alpha to 35.
+		//d) Set the value of the ninth element of the array alpha to the sum of the sixth and thirteenth elements of the array alpha.
+		
+		//int[] alpha = new int[15];
+		int[] alpha = {2,5,4,9,8,7,3,5,10,18,43,20,51,78,52};
+		System.out.println("Tenth element is " + alpha[9]);
+		
+		System.out.println("New value of the fifth element is " + (alpha[4] = 35));
+		
+		System.out.println("New value of the ninth element is " + (alpha[8] = alpha[5] + alpha[12]));
+
+	}
+
+}
