@@ -1,0 +1,37 @@
+package myArray;
+
+import java.util.Scanner;
+
+public class Grade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		int [] score = new int [5];
+		int best = 0;
+		int i;
+		char grade;
+		
+		System.out.println("Enter score of 5 students: ");
+		for (i = 0; i < score.length; i++)
+			score [i] = sc.nextInt();
+			
+		for (i = 0; i < score.length; i++) {
+			if (score [i] >= best + 80)
+				grade = 'A';
+			else if (score [i] >= best + 65)
+				grade = 'B';
+			else if (score [i] >= best + 55)
+				grade = 'C';
+			else if (score [i] >= best + 40)
+				grade = 'D';
+			else
+				grade = 'F';
+		
+		
+		System.out.println("Student " + i + " score is " + score[i] + " and grade is " + grade);
+		
+		}
+	}
+
+}
