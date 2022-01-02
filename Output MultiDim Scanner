@@ -1,0 +1,50 @@
+Enter 9 array Elements: 
+8
+6
+3
+1
+4
+5
+7
+2
+9
+The Array is:
+8  6  3  
+1  4  5  
+7  2  9  
+
+Number: 8
+Sum is: 8
+Total sum is: 8
+
+Number: 6
+Sum is: 14
+Total sum is: 22
+
+Number: 3
+Sum is: 17
+Total sum is: 39
+
+Number: 1
+Sum is: 1
+Total sum is: 40
+
+Number: 4
+Sum is: 5
+Total sum is: 45
+
+Number: 5
+Sum is: 10
+Total sum is: 55
+
+Number: 7
+Sum is: 7
+Total sum is: 62
+
+Number: 2
+Sum is: 9
+Total sum is: 71
+
+Number: 9
+Sum is: 18
+Total sum is: 89
