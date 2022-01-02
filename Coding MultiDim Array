@@ -1,0 +1,36 @@
+package myArray;
+
+public class MultiDimArrayDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int sum ;
+		int totalSUM;
+		
+		int [][] x = {
+				{8, 9, 7},
+				{3, 5, 4},
+				{7, 6, 1}
+		};
+		
+		totalSUM = 0;
+		for (int m = 0; m < x.length; m++)
+		{
+			sum = 0;
+		for(int n = 0; n < x.length; n++)
+		{
+			System.out.println("\nNumber: " + x[m][n]);
+			sum = sum + x[m][n];
+		
+		
+			totalSUM += sum;
+			
+			System.out.println("Sum is: " + sum);
+			System.out.println("Total sum is: " + totalSUM);
+			
+		}
+
+		}
+	}
+}
